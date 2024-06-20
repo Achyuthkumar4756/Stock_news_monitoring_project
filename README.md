@@ -13,6 +13,16 @@ Percentage Change Calculation: Calculates the percentage change in stock price a
 News Fetching: Fetches the latest news articles related to the specified company when a significant stock price change occurs.
 SMS Notifications: Sends SMS notifications with stock price updates and news articles using Twilio.
 
+VIRTUAL_TWILIO_NUMBER = 'your_twilio_number'
+VERIFIED_NUMBER = 'your_verified_number'
+STOCK_NAME = "TSLA"
+COMPANY_NAME = "Tesla Inc"
+STOCK_API_KEY = "your_alphavantage_api_key"
+NEWS_API_KEY = "your_newsapi_api_key"
+TWILIO_SID = 'your_twilio_sid'
+TWILIO_AUTH_TOKEN = 'your_twilio_auth_token'
+
+
 1.Monitor Stock Prices: The script fetches the closing prices for the specified stock and calculates the percentage change.
 
 2.Fetch News Articles: If the stock price change exceeds the defined threshold, it fetches the latest news articles related to the company.
