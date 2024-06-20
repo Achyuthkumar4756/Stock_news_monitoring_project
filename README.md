@@ -13,7 +13,7 @@ Percentage Change Calculation: Calculates the percentage change in stock price a
 News Fetching: Fetches the latest news articles related to the specified company when a significant stock price change occurs.
 SMS Notifications: Sends SMS notifications with stock price updates and news articles using Twilio.
 
-VIRTUAL_TWILIO_NUMBER = 'your_twilio_number'
+VIRTUAL_TWILIO_NUMBER = 'your_twilio_number'/n
 VERIFIED_NUMBER = 'your_verified_number'
 STOCK_NAME = "TSLA"
 COMPANY_NAME = "Tesla Inc"
